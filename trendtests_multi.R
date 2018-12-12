@@ -1,8 +1,7 @@
 ### Functions for calculating trend tests for multiple process time censored data
 
 # Most of the tests are described in: 
-#  Kvaløy and Lindqvist (2018), A Class of Tests for Trend in Time Censored Recurrent Event Data, 
-#  arXiv:1802.08339 [stat.ME], https://arxiv.org/abs/1802.08339
+#  Anonymous (2018), A Class of Tests for Trend in Time Censored Recurrent Event Data, 
 # See also: 
 #  Lawless, Cigsar and Cook (2012), Testing for monotone trend in recurrent event processes,
 #  Technometrics 54: 147-158.
@@ -21,8 +20,8 @@
 #            - "CVntau" for weights proportional to cv*tau*sqrtN 
 # sigma - how to calculate the standard deviation, options are:
 #          - "s" for the usual sample standard deviation
-#          - "c" for the estimator in equation (10) in Kvaløy & Lindqvist (2018)
-#          - "l" for the estimator in equation (11) in Kvaløy & Lindqvist (2018)
+#          - "c" for the estimator in equation (10) in Anonymous (2018)
+#          - "l" for the estimator in equation (11) in Anonymous (2018)
 #          - "fixCV" for forcing a specific value of CV
 # cv - a specific value of cv, used only if sigma="fixCV"
 
